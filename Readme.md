@@ -4,5 +4,5 @@
 
 ## Sumario das aulas: 
 
-[- Apresentação da disciplina e conceitos iniciais de git](./2026-07-22-aula)
+[- Apresentação da disciplina e conceitos iniciais de git](./aulas/2026-07-22)
 
