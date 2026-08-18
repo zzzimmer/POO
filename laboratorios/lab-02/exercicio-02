@@ -1,0 +1,35 @@
+int numAleatorio = new int (math.random(0,100);
+Scanner sc = new Scanner(system.in)
+int numAdivinhado; 
+int contador = 1;
+
+sout("Digite um número");
+
+numAdivinhado = sc.nextInt();
+
+while(numAdivinhado !=  numAleatorio){
+
+	if(numAdivinhado > numAleatorio){
+
+	sout("numAdiv é maior que numAle");
+
+	
+
+	} else {
+	
+	sout("numAdv é menor que numAle");
+	
+
+	}
+
+contador++
+sout("Digite um número");
+
+numAdivinhado = sc.nextInt();
+
+}
+
+
+sout("numero adivinhado. Total de tentativas: "+contador);
+
+
