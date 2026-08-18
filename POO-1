@@ -1,0 +1,21 @@
+
+abstração = pegar os fatos relevantes de um problema complexo que se deseja atacar. foca na caracteristica necessária para a resolução. 
+
+O trabalho do programador é abstrair estes problemas, usando as diferentes tecnicas e tecnologias a disposição, para apresentar uma solução.
+O paradigma é a forma de como atacar um problema. 
+
+Paradigma estrutural e procedural:
+
+Procedural se fundamenta em sequencia, decisão e repetição. 
+"Desvios condicionais são preferidos a desvios incondicionais"
+
+O paradigma procedural atua com dividir para conquistar.
+
+ESTRUTURAL é um SUBCONJUNTO de PROCEDURAL. Linguagens referencia são Pascal, C, Fortran e Cobol.
+
+Chegando então a ORIENTACAO A OBJETOS.
+- Os objetos representam entidades do mundo real. 
+- Cada objeto possui uma tarefa especifica. E por meio da troca de mensagens entre os objetos, é possível realizar uma tarefa computacional. 
+- Voltado para desenvolvimento de softwares de media e alta complexidade. Pode complexificar problemas simples.
+- Exemplos de linguagens de OO: Smaltalk, C++, Java, Python, Kotlin. 
+-OBS: Java em seu núcleo é orientado a objetos. Entretanto, tem traços de funcional (como JavaScript). Kotlin também usa e abusa de prog funcional. 
