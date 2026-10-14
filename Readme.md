@@ -6,3 +6,5 @@
 
 [- Apresentação da disciplina e conceitos iniciais de git](./aulas/2026-07-22)
 
+[-Slides introdução Java](./aulas/2026-07-28)
+
