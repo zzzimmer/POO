@@ -98,6 +98,18 @@ while (i<10){
     vetorBidimensional [1][2] = 2;
    
   ```
+  - Iteração sobre vetor:
+  ```java 
+  int numeros [] = {1,2,3};
+  //tradicional
+  for (int i = 0; i < numeros.lenght; i++){
+  sout(numero[i]);
+  }
+  //for each
+  for (int valor : numeros){
+  sout(numero[i]);
+  }
+  ```
 
 
 
