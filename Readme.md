@@ -10,3 +10,7 @@
 
 [Herança](./aulas/2026-10-14/Telefonia/README.md)
 
+## Laboratórios:
+
+[lab-01](./laboratorios/lab-01/)
+

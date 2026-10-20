@@ -98,20 +98,36 @@ while (i<10){
     vetorBidimensional [1][2] = 2;
    
   ```
-  - Iteração sobre vetor:
+  - Iteração sobre vetor unidemensional:
   ```java 
   int numeros [] = {1,2,3};
   //tradicional
   for (int i = 0; i < numeros.lenght; i++){
-  sout(numero[i]);
+  System.out.println(numero[i]);
   }
   //for each
   for (int valor : numeros){
-  sout(numero[i]);
+  System.out.println(valor);
   }
   ```
+  
+  - Iteração com vetores multidimensionais
+    - Em java, não existe "matriz", trata-se de um array de array. Ou seja, ao instânciar (new) a jvm
+    guarda o tamanho fixo do array na memória. Dessa forma, ao consultar length, se busca uma propriedade daquela referência (diferente de lenght() com parentesis, usado para referências do tipo String).
+    - Ao declarar ```java
+      int [][] vetorBidimensional  new int [2][2];``` O que se diz para a memória é que o primeiro array [0] tem tamanho 2 {indices 0 e 1}, e que o segundo array [1] tem também tamanho 2 {indices [0] e [1]}
 
+  ```java
+    int [][] vetorBidimensional  new int [2][2];
+    for (int i =0; i < vetorBidimensional.lenght; i++){
+        for(int j = 0; j<vetorBidimensional[i].lenght ; j++ ){
 
+        }
+    }
+  ```
+    - Dessa forma, o programa declara o primeiro loop, encontra logo em seguida outro loop que tem o indice base o array determinado por [i]. 
+  
+- 
 
 
 
