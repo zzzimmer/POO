@@ -1,0 +1,59 @@
+questao 1: 
+Sem preocupação com valores positivos ou negativos, bordas. 
+public class Robo{
+
+private int x;
+private int y;
+
+private ArrayList<String> historico;
+private String historico;
+private StringBuilder historico;
+
+public Robo(int x, int y){
+this.x = x;
+this.y = y;
+this.historico = new StringBuilder();
+}
+
+public void deslocar (String sentido, int qtde){
+
+switch (sentido){
+	case "N" -> this.y+=qtde; //assim por diante
+	case "S" -> this.y+=qtde;
+	case "L" -> this.x+=qtde;
+	case "O" -> this.x+=qtde;
+
+this.historico.append(sentido).append(qtde);
+
+}
+
+
+Questao 3:
+
+Se eu sobreescrevo o construtor canonico exigindo passar um Material material, eu não to cumprindo com a regra da composição ja dentro da classe?
+não entendi porque não seria possivel realizar na classe e deixar apenas para o sistema.
+
+Questao 2:
+
+A Compra deve registrar o valor do produto COMPRADO, visto que o produto pode ter seu valor alterado.
+
+class Cliente{
+ - nome : String
+ - email : String
+}
+
+class Produto{
+ - descricao : String
+ - valor : Double
+}
+
+// compra poderia ter 3 arrayList, de produtos, qtde e valor. 
+//Mas uma alternativa melhor seria uma CLASSE ItemCompra
+class Compra{
+  - data : LocalDate
+  - ArrayList : <ItemCompra>
+}
+
+class ItemCompra {
+
+Cliente *-- Compra
