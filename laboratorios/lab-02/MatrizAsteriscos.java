@@ -3,7 +3,7 @@ import java.util.Random;
 public class MatrizAsteriscos {
     static void main() {
 
-        String [][] aleatoria = new String [9][9];
+        String [][] aleatoria = new String [10][10];
         Random random = new Random();
 
         int rand;
