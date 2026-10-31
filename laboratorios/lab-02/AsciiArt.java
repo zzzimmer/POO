@@ -26,8 +26,24 @@ public class AsciiArt {
                         altura = sc.nextInt();
                         retangulo(largura, altura);
                     }
+           case 2 -> {
+               System.out.println("Digite a largura");
+               largura = sc.nextInt();
+               losangulo(largura);
+           }
         }
 
+    }
+
+    public static void losangulo(int largura){
+        String base = "";
+        for (int i = 0; i<largura; i++){
+            base = base+"*";
+        }
+        System.out.println(base);
+        for (int i = 0; i<largura; i++){
+            base = base-"*";
+        }
     }
 
     public static void triangulo(int altura){
