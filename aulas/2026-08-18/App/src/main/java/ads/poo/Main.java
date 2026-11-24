@@ -5,12 +5,23 @@ package ads.poo;
 public class Main {
     public static void main(String[] args) {
 
-        Carro fusca = new Carro();
+//        Carro fusca = new Carro();
+//
+//        fusca.acelerar(20);
+//
+//        System.out.println("A velocidade é: " + fusca.obterVelocidadeAtual());
 
-        fusca.acelerar(20);
+        Contador contador = new Contador();
 
-        System.out.println("A velocidade é: "+ fusca.obterVelocidadeAtual());
+        contador.setValorAtual(10);
 
+        System.out.println(contador.getValorAtual());
+
+        for (int j = 0; j < 10; j++) {
+            contador.incrementaValorAtual();
+            j++;
+        }
 
     }
+
 }
