@@ -19,3 +19,48 @@ Chegando então a ORIENTACAO A OBJETOS.
 - Voltado para desenvolvimento de softwares de media e alta complexidade. Pode complexificar problemas simples.
 - Exemplos de linguagens de OO: Smaltalk, C++, Java, Python, Kotlin. 
 -OBS: Java em seu núcleo é orientado a objetos. Entretanto, tem traços de funcional (como JavaScript). Kotlin também usa e abusa de prog funcional. 
+
+Definição de  objeto:
+
+- é identificavel, com caracteristicas de estado, e pode ser capaz de fazer algo (comportamento).
+
+Exercicio -> Identificar dois objetos e modelar seus atributos e métodos:
+
+- class Mesa{
+
+	long altura;
+	long largura;
+	long comprimento; 
+
+	public long calculaAreaTampo(long alt, long larg){
+	
+	return alt x larg;
+	
+	}
+
+- class Garrafa {
+
+	String marca;
+	String tipoMetal;
+	String corTintaRevestimento;
+	
+
+Objeto é a instância de uma classe. A materialização de um objeto. 
+
+Definição de classe: É a planta baixa de um projeto. 
+
+- class CarroRevenda { 
+	
+int id;
+int ano;
+long kmRodados;
+Modelo modelo;
+Cor cor; 
+List<Manutencao> manutencoesRealizadas = new List<Manutencao>; 
+EtipoCambio cambio; 
+
+- class CarroJogo {
+
+}
+
+

@@ -8,7 +8,9 @@
 
 [Slides introdução Java](./aulas/2026-07-28)
 
-[Herança](./aulas/2026-10-14/Telefonia/README.md)
+[Intro. Herança](./aulas/2026-10-14/Telefonia/README.md)
+
+[Exercicios Herança](./aulas/2026-10-20)
 
 ## Laboratórios:
 
